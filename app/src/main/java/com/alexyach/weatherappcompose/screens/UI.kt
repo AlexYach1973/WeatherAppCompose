@@ -35,7 +35,6 @@ fun MainList(list: List<WeatherModel>, currentDay: MutableState<WeatherModel>) {
 
 }
 
-//@Preview(showBackground = true)
 @Composable
 fun ListItem(item: WeatherModel, currentDay: MutableState<WeatherModel>) {
     Card(

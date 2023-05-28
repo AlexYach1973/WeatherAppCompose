@@ -83,7 +83,6 @@ class MainActivity : ComponentActivity() {
                         })
                     TabLayout(daysList, currentDay)
                 }
-
             }
         }
     }
